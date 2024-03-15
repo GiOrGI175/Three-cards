@@ -1,0 +1,430 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d8d8d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divForCenter {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 {
+  width: 1160px;
+  height: 528px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card1 {
+  width: 360px;
+  height: 528px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.pizaFoto {
+  width: 360px;
+  height: 216px;
+}
+
+.divForFlex {
+  width: 360px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardH2 {
+  width: 313px;
+  font-family: "DM Serif Display", serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.cardH2 h2 {
+  width: 198px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #081f32;
+}
+
+.divForfoto {
+  width: 57px;
+  height: 24px;
+  margin-left: 57px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon1 {
+  margin-left: 9px;
+  width: 30px;
+  height: 30px;
+}
+
+.txt1 {
+  width: 312px;
+  height: 75px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.txt1 span {
+  font-family: "Open Sans", sans-serif;
+  color: #6e798c;
+}
+
+.CalDataClsus {
+  width: 313px;
+  height: 25px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.CalDataClsus span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #a5adbb;
+}
+
+.priceDIv {
+  width: 313px;
+  height: 44px;
+  margin-top: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newPrice {
+  width: 88px;
+  height: 25px;
+  font-size: 28px;
+  font-family: "DM Serif Display", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oldPrice {
+  width: 73px;
+  height: 25px;
+  font-size: 20px;
+  font-family: "DM Serif Display", serif;
+  color: #f8593b;
+}
+.divZ {
+  position: relative;
+  z-index: 1;
+}
+.redLine {
+  width: 60px;
+  height: 1px;
+  background-color: #f8593b;
+  position: relative;
+  z-index: 2;
+  bottom: 13px;
+}
+
+.orderBTN {
+  width: 114px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoIMG {
+  position: relative;
+  bottom: 660px;
+  right: 245px;
+}
+
+.card2 {
+  width: 360px;
+  height: 528px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.infoIMG2 {
+  position: relative;
+  bottom: 595px;
+  left: 155px;
+}
+
+.TortelliniFoto {
+  width: 360px;
+  height: 216px;
+}
+
+.cardH2-card2 {
+  width: 313px;
+  font-family: "DM Serif Display", serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.cardH2-card2 h2 {
+  width: 198px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #081f32;
+}
+
+.icon {
+  margin-left: 9px;
+}
+
+.divForfoto-card2 {
+  width: 90px;
+  height: 24px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon1-card2 {
+  margin-left: 9px;
+  width: 30px;
+  height: 30px;
+}
+
+.txt1-card2 {
+  width: 312px;
+  height: 75px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.txt1-card2 span {
+  font-family: "Open Sans", sans-serif;
+  color: #6e798c;
+}
+
+.CalDataClsus-card2 {
+  width: 313px;
+  height: 25px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.CalDataClsus-card2 span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #a5adbb;
+}
+
+.priceDIv-card2 {
+  width: 313px;
+  height: 44px;
+  margin-top: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newPrice-card2 {
+  width: 88px;
+  height: 25px;
+  font-size: 28px;
+  font-family: "DM Serif Display", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oldPrice-card2 {
+  width: 73px;
+  height: 25px;
+  font-size: 20px;
+  font-family: "DM Serif Display", serif;
+  color: #f8593b;
+}
+.divZ-card2 {
+  position: relative;
+  z-index: 1;
+}
+.redLine-card2 {
+  width: 60px;
+  height: 1px;
+  background-color: #f8593b;
+  position: relative;
+  z-index: 2;
+  bottom: 13px;
+}
+
+.orderBTN-card2 {
+  width: 114px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card3 {
+  width: 360px;
+  height: 528px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.infoIMG3 {
+  position: relative;
+  bottom: 530px;
+  left: 555px;
+}
+
+.StrawberryFoto {
+  width: 360px;
+  height: 216px;
+}
+
+.cardH2-card3 {
+  width: 313px;
+  font-family: "DM Serif Display", serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.cardH2-card3 h2 {
+  width: 198px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #081f32;
+}
+
+.divForfoto-card3 {
+  width: 90px;
+  height: 24px;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon1-card3 {
+  width: 30px;
+  height: 30px;
+}
+
+.txt1-card3 {
+  width: 312px;
+  height: 75px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.txt1-card3 span {
+  font-family: "Open Sans", sans-serif;
+  color: #6e798c;
+}
+
+.CalDataClsus-card3 {
+  width: 313px;
+  height: 25px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.CalDataClsus-card3 span {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #a5adbb;
+}
+
+.priceDIv-card3 {
+  width: 313px;
+  height: 44px;
+  margin-top: 33px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newPrice-card3 {
+  width: 88px;
+  height: 25px;
+  font-size: 28px;
+  font-family: "DM Serif Display", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oldPrice-card3 {
+  width: 73px;
+  height: 25px;
+  font-size: 20px;
+  font-family: "DM Serif Display", serif;
+  color: #f8593b;
+}
+.divZ-card3 {
+  position: relative;
+  z-index: 1;
+}
+.redLine-card3 {
+  width: 60px;
+  height: 1px;
+  background-color: #f8593b;
+  position: relative;
+  z-index: 2;
+  bottom: 13px;
+}
+
+.orderBTN-card3 {
+  width: 114px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
